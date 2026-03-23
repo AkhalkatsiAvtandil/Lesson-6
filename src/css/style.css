@@ -1,5 +1,25 @@
+@font-face {
+  font-family: font1;
+  src: url(../font/FunnelSans-Italic-VariableFont_wght.ttf);
+  src: url(../font/FunnelSans-VariableFont_wght.ttf);
+}
+@font-face {
+  font-family: font2;
+  src: url(../font/HELVETICA-NEUE-LT-GEO-75-BOLD.ttf);
+}
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0;
+}
+h1 {
+  font-family: font1;
+}
+p {
+  font-family: font2;
 }
