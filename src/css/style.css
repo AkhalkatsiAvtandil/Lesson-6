@@ -25,18 +25,16 @@ h1 {
   text-align: left;
   padding-top: 25px;
   top: 25px;
-  
 }
 p {
   font-family: font2;
   font-size: small;
   margin-top: 50px;
-  
 }
 section {
   max-width: 900px;
   height: 500px;
-  
+  background-color: #ffffff;
 }
 .parent {
   position: relative;
@@ -55,9 +53,6 @@ section {
 .section-div {
   position: sticky;
   max-width: 500px;
-  max-height: 480px;
-  margin-left: 100px;
-  
-.sticky{
-  position: sticky;
+  display: inline-block;
+  left: 900px;
 }
