@@ -1,5 +1,58 @@
+@font-face {
+  font-family: font1;
+  src: url(../font/FunnelSans-Italic-VariableFont_wght.ttf);
+  src: url(../font/FunnelSans-VariableFont_wght.ttf);
+}
+@font-face {
+  font-family: font2;
+  src: url(../font/HELVETICA-NEUE-LT-GEO-75-BOLD.ttf);
+}
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0;
+}
+img {
+  border-radius: 5px;
+}
+h1 {
+  font-family: font1;
+  text-align: left;
+  padding-top: 25px;
+  top: 25px;
+}
+p {
+  font-family: font2;
+  font-size: small;
+  margin-top: 50px;
+}
+section {
+  max-width: 900px;
+  height: 500px;
+  background-color: #ffffff;
+}
+.parent {
+  position: relative;
+  background-color: #0a22f4;
+  border-radius: 5px;
+  max-width: 463px;
+  height: 420px;
+  margin-top: 100px;
+}
+.parent img {
+  position: absolute;
+  display: inline-block;
+  left: 10px;
+  bottom: 10px;
+}
+.section-div {
+  position: sticky;
+  max-width: 500px;
+  display: inline-block;
+  left: 900px;
 }
